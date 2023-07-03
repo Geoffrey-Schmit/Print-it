@@ -231,15 +231,6 @@ header {
 .dot_selected {
     background-color: #fff;
 }
-
-.slide-in-left {
-    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-    animation: slide-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-}
-.slide-in-right {
-    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-    animation: slide-in-right 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-}
 /* Fin du code CSS pour le carousel */
 #banner p {
     font-family: 'Roboto Slab', sans-serif;
@@ -382,55 +373,5 @@ footer div {
 @media all and (max-width: 1250px) {
     #contact > article {
         flex: 2;
-    }
-}
-
-@-webkit-keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes slide-in-right {
-    0% {
-        -webkit-transform: translateX(1000px);
-        transform: translateX(1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slide-in-right {
-    0% {
-        -webkit-transform: translateX(1000px);
-        transform: translateX(1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
     }
 }
